@@ -6,7 +6,6 @@ pushd %~dp0..
 echo * Status
 %git% status --porcelain
 
-
 set lines=0
 for /f "delims=" %%i in ('%git% status --porcelain') do set /a lines=lines+1
 

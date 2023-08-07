@@ -14,7 +14,7 @@ if %lines%==0 goto nochanges
 set timestamp=%date:~10,4%-%date:~4,2%-%date:~7,2%T%time:~0,2%:%time:~3,2%:%time:~6,2%
 echo * Commiting local changes: %lines%
 %git% add -A --all --no-ignore-removal
-%git% commit -m "Auto sync, %timestamp%"
+%git% commit -m "Auto sync %timestamp%"
 
 :nochanges
 

@@ -1,0 +1,11 @@
+{
+    "array": [
+        1, 
+        "two", 
+        3.0
+    ], 
+    "bool": true, 
+    "one": 1, 
+    "two": 2, 
+    "unicode": "\u00a9\u00bd\u00c2"
+}
